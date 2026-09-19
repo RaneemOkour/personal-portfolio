@@ -707,3 +707,9 @@ h1 {
     .carousel-stage { width: 290px; height: 430px; }
     .project-3d-card { transform: rotateY(calc(var(--card-index) * 180deg)) translateZ(280px); }
 }
+.amber-glow {
+    background: radial-gradient(circle, rgba(245, 158, 11, 0.25) 0%, transparent 70%);
+    color: #f59e0b;
+    border-color: rgba(245, 158, 11, 0.4);
+    box-shadow: 0 0 20px rgba(245, 158, 11, 0.2);
+}
